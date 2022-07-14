@@ -736,14 +736,17 @@ strong {
         right: unset;
         z-index: 1;
     }
-    .details__list ul{
+
+    .details__list ul {
         display: flex;
         flex-wrap: wrap;
     }
-    .details__list ul li{
-        width:50%;
+
+    .details__list ul li {
+        width: 50%;
         padding-right: 1rem;
     }
+
     .details__duration {
         text-align: center;
     }
