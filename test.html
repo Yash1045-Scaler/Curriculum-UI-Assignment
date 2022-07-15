@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scaler Academy : Curriculum</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="curriculum">
-            <div class="curriculum__header">
-                <div class="header__content">
-                    <h2 class="content__title">
+        <div class="container__curriculum curriculum">
+            <div class="curriculum__header header">
+                <div class="header__content content">
+                    <h2 class="content__title title">
                         <b>Curriculum</b>
                         is designed to make you a
-                        <span class="highlight">
+                        <span class="title__highlight ">
                             <b>solid engineer</b>
                         </span>
                     </h2>
@@ -28,96 +29,96 @@
                     </h4>
                 </div>
             </div>
-            <div class="courses">
-                <div class="course__intro">
-                    <div class="course__title " id="beginner">
-                        <div class="course__head course__head--left">
-                            <div class="course__head--icon">
+            <div class="curriculum__course course">
+                <div class="course__intro intro">
+                    <div class="intro__title title" id="beginner">
+                        <div class="title__head title__head--left">
+                            <div class="title__head--icon">
                                 <img src="https://assets.scaler.com/assets/academy/svg/beginner-e425805912482eb6b1b4aeb3bd681182da266ddd407003775f053aa0b3a92e29.svg.gz"
                                     alt="Beginner">
                             </div>
-                            <div class="course__head--name">
+                            <div class="title__head--name">
                                 Beginner
                             </div>
-                            <label class="course__toggle" for="Toggle0">
+                            <label class="title__toggle toggle" for="Toggle0">
                                 <input class="toggle__input" name="" type="checkbox" id="Toggle0">
                                 <div class="toggle__fill"></div>
                             </label>
                         </div>
                     </div>
-                    <div class="course__title" id="Intermediate">
-                        <div class="course__head">
-                            <div class="course__head--icon">
+                    <div class="intro__title title" id="Intermediate">
+                        <div class="title__head ">
+                            <div class="title__head--icon">
                                 <img src="https://assets.scaler.com/assets/academy/svg/intermediate-048f25015f9579217aa6003046f17352e05af7334f880f377127b924c8b8207a.svg.gz"
                                     alt="Intermediate">
                             </div>
-                            <div class="course__head--name">
+                            <div class="title__head--name">
                                 Intermediate
                             </div>
-                            <label class="course__toggle" for="Toggle1">
+                            <label class="title__toggle toggle" for="Toggle1">
                                 <input class="toggle__input" name="" type="checkbox" id="Toggle1">
                                 <div class="toggle__fill"></div>
                             </label>
                         </div>
                     </div>
-                    <div class="course__title" id="Advanced">
-                        <div class="course__head course__head--right">
-                            <div class="course__head--icon">
+                    <div class="intro__title title" id="Advanced">
+                        <div class="title__head title__head--right">
+                            <div class="title__head--icon">
                                 <img src="https://assets.scaler.com/assets/academy/svg/advanced-653b7e9152a8597a3487d8a31d2a408948aeaff459ed5964027e5234df083dc8.svg.gz"
                                     alt="Advanced">
                             </div>
-                            <div class="course__head--name">
+                            <div class="title__head--name">
                                 Advanced
                             </div>
-                            <label class="course__toggle" for="Toggle2">
+                            <label class="title__toggle" for="Toggle2">
                                 <input class="toggle__input" name="" type="checkbox" id="Toggle2">
                                 <div class="toggle__fill"></div>
                             </label>
                         </div>
                     </div>
                 </div>
-                <div class="course__info">
-                    <div class="course__details course__detail--beginner">
-                        <div class="course__details--description">
+                <div class="course__info info">
+                    <div class="info__details details info__detail--beginner">
+                        <div class="details__description">
                             I know bare minimum coding. Starting from scratch.
                         </div>
-                        <div class="course__details--status">
+                        <div class="details__status">
                             Comming Soon!
                         </div>
-                        <div class="course__details--duration">
+                        <div class="details__term">
                             44 Weeks Course
                         </div>
 
 
                     </div>
-                    <div class="course__details course__detail--intermediate">
-                        <div class="course__details--description">
+                    <div class="info__details details info__detail--intermediate">
+                        <div class="details__description">
                             I know coding in one programming language. Can build basic applications.
                         </div>
-                        <div class="course__details--status">
+                        <div class="details__status">
                             Enrolment open
                         </div>
-                        <div class="course__details--duration">
+                        <div class="details__term">
                             37 Weeks Course
                         </div>
                     </div>
-                    <div class="course__details course__detail--advanced">
-                        <div class="course__details--description">
+                    <div class="info__details details info__detail--advanced">
+                        <div class="details__description">
                             I am good at coding. I know basic problem solving, data structures, algorithms. Can build
                             basic to advanced
                             applications.
                         </div>
-                        <div class="course__details--status">
+                        <div class="details__status">
                             Enrolment open
                         </div>
-                        <div class="course__details--duration">
+                        <div class="details__term">
                             30 Weeks Course
                         </div>
                     </div>
                 </div>
-                <div class="course__content">
-                    <div class="content__syllabus syllabus--beginner">
-                        <div class="syllabus__bookmark bookmark--first">
+                <div class="course__content content">
+                    <div class="content__syllabus syllabus">
+                        <div class="syllabus__bookmark bookmark syllabus__bookmark--first">
                             <div class="bookmark__icon">1</div>
                         </div>
                         <div class="syllabus__name">
@@ -127,15 +128,15 @@
                             <img src="https://assets.scaler.com/assets/academy/svg/arrow1-72014b1b01d81d6695cb8e4e2d47d7a073549d48b1c58864051689fddb6cb635.svg.gz"
                                 alt="arrow">
                         </div>
-                        <div class="syllabus__details">
-                            <div class="details__duration">
+                        <div class="syllabus__characteristics characteristics">
+                            <div class="characteristics__time time">
                                 <img src="https://assets.scaler.com/assets/academy/svg/clock1-149b3eca6c24d5b988e85712d676c8a6678e95ba968376677d73137e389b8469.svg.gz"
                                     alt="clock">
-                                <span class="course-duration duration--beginner">
+                                <span class="time__week time__week--beginner">
                                     7 Weeks
                                 </span>
                             </div>
-                            <div class="details__list list--beginner">
+                            <div class="characteristics__list characteristics__list--beginner">
                                 <ul>
                                     <li>
                                         Decision trees & control
@@ -156,8 +157,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="content__syllabus syllabus--intermediate">
-                        <div class="syllabus__bookmark bookmark--second">
+                    <div class="content__syllabus syllabus ">
+                        <div class="syllabus__bookmark bookmark syllabus__bookmark--second">
                             <div class="bookmark__icon">2</div>
                         </div>
                         <div class="syllabus__name">
@@ -167,15 +168,15 @@
                             <img src="https://assets.scaler.com/assets/academy/svg/arrow1-72014b1b01d81d6695cb8e4e2d47d7a073549d48b1c58864051689fddb6cb635.svg.gz"
                                 alt="arrow">
                         </div>
-                        <div class="syllabus__details">
-                            <div class="details__duration">
+                        <div class="syllabus__characteristics characteristics">
+                            <div class="characteristics__time time">
                                 <img src="https://assets.scaler.com/assets/academy/svg/clock2-edfdaf598729bedfd2bce4ed2261a2ec36e99b2d11258d9fdc04f722c4ef286f.svg.gz"
                                     alt="clock">
-                                <span class="course-duration duration--intermediate">
+                                <span class="time__week time__week--intermediate">
                                     7 Weeks
                                 </span>
                             </div>
-                            <div class="details__list list--intermediate">
+                            <div class="characteristics__list characteristics__list--intermediate">
                                 <ul>
                                     <li>
                                         Introduction to Number systems and Bit Manipulations
@@ -202,8 +203,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="content__syllabus syllabus--advanced">
-                        <div class="syllabus__bookmark bookmark--third">
+                    <div class="content__syllabus syllabus content__syllabus--advanced">
+                        <div class="syllabus__bookmark bookmark syllabus__bookmark--third">
                             <div class="bookmark__icon">3</div>
                         </div>
                         <div class="syllabus__name">
@@ -213,15 +214,15 @@
                             <img src="https://assets.scaler.com/assets/academy/svg/arrow1-72014b1b01d81d6695cb8e4e2d47d7a073549d48b1c58864051689fddb6cb635.svg.gz"
                                 alt="arrow">
                         </div> -->
-                        <div class="syllabus__details">
-                            <div class="details__duration">
+                        <div class="syllabus__characteristics characteristics">
+                            <div class="characteristics__time time">
                                 <img src="https://assets.scaler.com/assets/academy/svg/clock3-a75f427cb9a66035844024bf0603f3745b29469408af83c97e653714b1e18e61.svg.gz"
                                     alt="clock">
-                                <span class="course-duration duration--advanced">
+                                <span class="time__week time__week--advanced">
                                     15 Weeks
                                 </span>
                             </div>
-                            <div class="details__list list--advanced">
+                            <div class="characteristics__list characteristics__list--advanced">
                                 <ul>
                                     <li>
                                         Time Complexity, Arrays, Strings, Binary Search, 2 Pointers, Recursion, Hashing,
@@ -245,30 +246,30 @@
                             src="https://assets.scaler.com/assets/academy/svg/special-arrow-fda167db921d6550f399ba6ed902018d7ceec2c951211e8ecac2255c0119c939.svg.gz">
                     </div>
                 </div>
-                <div class="course__special ">
+                <div class="course__special special">
                     <h2 class="special__title">
                         Pick one of the <b>specialisation</b>
                     </h2>
                 </div>
-                <div class="course__specialisation">
-                    <div class="specialisation__field ">
-                        <div class="field__triangle-icon triangle-icon--backend">
-                            <div class="triangle triangle--left"> </div>
+                <div class="course__specialisation specialisation">
+                    <div class="specialisation__field field">
+                        <div class="field__triangle triangle field__triangle--backend">
+                            <div class="triangle__shape triangle__shape--left"> </div>
                         </div>
-                        <div class="field__header header--backend">
-                            <div class="field__bookmark bookmark--backend">
-                                <div class="backend__bookmark--icon ">4a</div>
+                        <div class="field__head head field__head--backend">
+                            <div class="head__bookmark head__bookmark--backend">
+                                <div class="backend-mark">4a</div>
                             </div>
-                            <div class="field__name">
+                            <div class="head__name">
                                 Backend Specialisation
                             </div>
-                            <div class="field__data">
-                                <div class="data__duration duration--backend">
+                            <div class="head__data data">
+                                <div class="data__duration data__duration--backend">
                                     15 Weeks
                                 </div>
                             </div>
                         </div>
-                        <div class="field__des des--backend">
+                        <div class="field__des field__des--backend">
                             <ul>
                                 <li>
                                     System Design (HLD + LLD) with project
@@ -279,25 +280,25 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="specialisation__field ">
-                        <div class="field__triangle-icon triangle-icon--fullstack">
-                            <div class="triangle triangle--right"> </div>
+                    <div class="specialisation__field field">
+                        <div class="field__triangle triangle field__triangle--fullstack">
+                            <div class="triangle__shape triangle__shape--right"> </div>
                         </div>
-                        <div class="field__header header--fullstack">
-                            <div class="field__bookmark bookmark--fullstack">
-                                <div class="fullstack__bookmark--icon ">4b</div>
+                        <div class="field__head head field__head--fullstack">
+                            <div class="head__bookmark head__bookmark--fullstack">
+                                <div class="fullstack-mark ">4b</div>
                             </div>
-                            <div class="field__name">
+                            <div class="head__name">
                                 Fullstack Specialisation
                             </div>
-                            <div class="field__data">
-                                <div class="data__duration duration--fullstack">
+                            <div class="head__data data">
+                                <div class="data__duration data__duration--fullstack">
                                     15 Weeks
                                 </div>
-                                <div class="field__option">Or</div>
+                                <div class="data__option">Or</div>
                             </div>
                         </div>
-                        <div class="field__des des--fullstack">
+                        <div class="field__des field__des--fullstack">
                             <ul>
                                 <li>
                                     System Design (HLD + LLD) with project
